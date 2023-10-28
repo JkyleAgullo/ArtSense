@@ -22,7 +22,7 @@ class WelcomePage extends StatelessWidget {
                     text: const TextSpan(
                       text: 'Welcome to\n',
                       style: TextStyle(
-                        fontSize: 35,
+                        fontSize: 25,
                         color: Color.fromRGBO(243, 222, 186, 1),
                         fontWeight: FontWeight.bold,
                       ),
@@ -67,7 +67,7 @@ class WelcomePage extends StatelessWidget {
                     // Add your button click logic here
                   },
                   style: ElevatedButton.styleFrom(
-                    primary: const Color.fromRGBO(243, 222, 186, 1),
+                    backgroundColor: const Color.fromRGBO(243, 222, 186, 1),
                     textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
 
                   ),
